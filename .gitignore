@@ -1,0 +1,45 @@
+# ===============================================================
+# General Ignores
+# ===============================================================
+.idea/
+.vscode/
+*.iml
+*.log
+.DS_Store
+
+# ===============================================================
+# Java & Spring Boot Backend (learningpath/)
+# ===============================================================
+# Build artifacts
+/learningpath/build/
+/learningpath/out/
+/learningpath/.gradle/
+
+# IDE files
+/learningpath/*.ipr
+/learningpath/*.iws
+
+# Sensitive files (never commit secrets)
+/learningpath/src/main/resources/application.properties
+/learningpath/src/main/resources/application-*.properties
+
+# ===============================================================
+# React & Vite Frontend (learningpath-dashboard/)
+# ===============================================================
+# Dependencies
+/learningpath-dashboard/node_modules/
+
+# Build output
+/learningpath-dashboard/dist/
+
+# Logs
+/learningpath-dashboard/npm-debug.log*
+/learningpath-dashboard/yarn-error.log*
+/learningpath-dashboard/pnpm-debug.log*
+
+# Environment variables (never commit secrets)
+/learningpath-dashboard/.env
+/learningpath-dashboard/.env*.local
+
+# Vite-specific cache
+/learningpath-dashboard/.vite/
