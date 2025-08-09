@@ -79,7 +79,7 @@ To get a local copy up and running, please follow these steps.
     ```sh
     ./gradlew bootRun
     ```
-    The backend server will start on `http://localhost:8080`. The first time it runs, the `DataSeeder` will populate the database with fake users and courses.
+    The backend server will start on `http://localhost:8080`. The first time it runs, the `DataSeeder` will populate the database with fake users and courses if uncommented (but no resourses will be added in courses).
 
 ### Frontend Setup
 
